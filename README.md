@@ -104,18 +104,18 @@ Embarking on the journey of deploying your web application is an exciting advent
 
      For example,
 
- if you want to redirect all requests to `/*` to `/index.html` with a 200 status code, your `_redirects` file would look like this:
+        If you want to redirect all requests to `/*` to `/index.html` with a 200 status code, your `_redirects` file would look like this:
 
-     ```plaintext
-     /*    /index.html    200
-     ```
+            ```plaintext
+            /*    /index.html    200
+            ```
 
-   - This rule specifies a 200 redirect (OK response) from any path (`/*`) to `/index.html`.
-   - Customize these rules based on your specific redirection needs.
+    - This rule specifies a 200 redirect (OK response) from any path (`/*`) to `/index.html`.
+    - Customize these rules based on your specific redirection needs.
 
-   - Make sure to add this file to your version control system (e.g., Git) and deploy it along with your project.
+    - Make sure to add this file to your version control system (e.g., Git) and deploy it along with your project.
 
-   - When deploying on Netlify, the `_redirects` file in the `public` or `src` folder will be automatically picked up during the build process.
+    - When deploying on Netlify, the `_redirects` file in the `public` or `src` folder will be automatically picked up during the build process.
 
 ## Step 6: Launch Your React Web App 🚀
 
