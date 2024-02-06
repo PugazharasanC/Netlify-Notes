@@ -99,7 +99,7 @@ Embarking on the journey of deploying your web application is an exciting advent
 
 2. **Setting Up Redirects 🔄:**
 
-   - Create a `_redirects` file in the `public` or `src` folder of your React project.
+   - Create a `_redirects` file in the `public` folder of your React project.
    - This file will contain rules for redirecting traffic on your site.
 
      For example,
@@ -115,7 +115,7 @@ Embarking on the journey of deploying your web application is an exciting advent
 
     - Make sure to add this file to your version control system (e.g., Git) and deploy it along with your project.
 
-    - When deploying on Netlify, the `_redirects` file in the `public` or `src` folder will be automatically picked up during the build process.
+    - When deploying on Netlify, the `_redirects` file in the `public` folder will be automatically picked up during the build process.
 
 ## Step 6: Launch Your React Web App 🚀
 
