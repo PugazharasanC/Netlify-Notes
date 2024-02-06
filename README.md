@@ -106,9 +106,9 @@ Embarking on the journey of deploying your web application is an exciting advent
 
         If you want to redirect all requests to `/*` to `/index.html` with a 200 status code, your `_redirects` file would look like this:
 
-            ```plaintext
-            /*    /index.html    200
-            ```
+      ```plaintext
+      /*    /index.html    200
+      ```
 
     - This rule specifies a 200 redirect (OK response) from any path (`/*`) to `/index.html`.
     - Customize these rules based on your specific redirection needs.
