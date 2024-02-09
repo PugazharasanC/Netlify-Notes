@@ -93,7 +93,7 @@ Embarking on the journey of deploying your web application is an exciting advent
 
      ```toml
      [build]
-       command = "npm run build"
+       command = "CI=false npm run build"
        publish = "dist"
      ```
 
